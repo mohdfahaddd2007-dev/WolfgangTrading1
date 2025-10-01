@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wolfgang Trading - Premium Wholesale Supplier</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <style>
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('http://static.photos/food/1200x630/42');
+            background-size: cover;
+            background-position: center;
+        }
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        .transition-slow {
+            transition: all 0.5s ease;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white shadow-md z-50">
+        <div class="flex items-center space-x-2">
+    <img src="images/logo.png" alt="Wolfgang Trading Logo" width="80">
+    <span class="text-3xl font-extrabold bg-gradient-to-r from-green-500 to-emerald-700 bg-clip-text text-transparent">
+  Wolfgang Trading
+</span>
+    </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#" class="text-green-600 font-medium">Home</a>
+                <a href="about.html" class="text-gray-600 hover:text-green-600 transition-slow">About Us</a>
+                <a href="products.html" class="text-gray-600 hover:text-green-600 transition-slow">Products</a>
+                <a href="quality.html" class="text-gray-600 hover:text-green-600 transition-slow">Quality</a>
+                <a href="contact.html" class="text-gray-600 hover:text-green-600 transition-slow">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <i data-feather="menu" class="text-gray-600"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-bg min-h-screen flex items-center justify-center text-white pt-20">
+        <div class="container mx-auto px-6 text-center" data-aos="fade-up">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">Supplying Freshness</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">From Farm to Market with Care & Quality</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="products.html" class="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-medium transition-slow">Explore Products</a>
+                <a href="contact.html" class="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-medium transition-slow">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-16" data-aos="fade-up">Why Choose Wolfgang Trading?</h2>
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-green-100 p-4 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="truck" class="text-green-600 w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Fast Delivery</h3>
+                    <p class="text-gray-600">Fresh produce delivered within 24 hours of harvest</p>
+                </div>
+                <div class="text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-orange-100 p-4 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="check-circle" class="text-orange-500 w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Quality Guaranteed</h3>
+                    <p class="text-gray-600">Rigorous quality checks for all our products</p>
+                </div>
+                <div class="text-center" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bg-yellow-100 p-4 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="dollar-sign" class="text-yellow-500 w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Competitive Pricing</h3>
+                    <p class="text-gray-600">Wholesale rates direct from farms to you</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Categories -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-16" data-aos="fade-up">Our Product Categories</h2>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="category-card bg-white rounded-xl shadow-md overflow-hidden transition-slow" data-aos="fade-up">
+                    <img src="http://static.photos/food/640x360/1" alt="Fresh Fruits" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Fresh Fruits</h3>
+                        <p class="text-gray-600">Seasonal, organic fruits sourced directly from orchards</p>
+                        <a href="products.html#fruits" class="text-green-600 font-medium inline-flex items-center mt-4">
+                            View Selection <i data-feather="arrow-right" class="ml-2 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="category-card bg-white rounded-xl shadow-md overflow-hidden transition-slow" data-aos="fade-up" data-aos-delay="100">
+                    <img src="http://static.photos/food/640x360/2" alt="Vegetables" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Vegetables</h3>
+                        <p class="text-gray-600">Farm-fresh vegetables delivered at peak freshness</p>
+                        <a href="products.html#vegetables" class="text-green-600 font-medium inline-flex items-center mt-4">
+                            View Selection <i data-feather="arrow-right" class="ml-2 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="category-card bg-white rounded-xl shadow-md overflow-hidden transition-slow" data-aos="fade-up" data-aos-delay="200">
+                    <img src="http://static.photos/food/640x360/3" alt="Dry Fruits" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Dry Fruits</h3>
+                        <p class="text-gray-600">Premium quality nuts, raisins and dried fruits</p>
+                        <a href="products.html#dryfruits" class="text-green-600 font-medium inline-flex items-center mt-4">
+                            View Selection <i data-feather="arrow-right" class="ml-2 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="category-card bg-white rounded-xl shadow-md overflow-hidden transition-slow" data-aos="fade-up" data-aos-delay="300">
+                    <img src="http://static.photos/food/640x360/4" alt="Essential Staples" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Essential Staples</h3>
+                        <p class="text-gray-600">Rice, lentils, sugar and other kitchen essentials</p>
+                        <a href="products.html#staples" class="text-green-600 font-medium inline-flex items-center mt-4">
+                            View Selection <i data-feather="arrow-right" class="ml-2 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-green-600 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-6" data-aos="fade-up">Ready to Partner With Us?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="100">Join hundreds of satisfied businesses who trust Wolfgang Trading for their supply needs</p>
+            <a href="contact.html" class="inline-block bg-white text-green-600 px-8 py-3 rounded-lg font-medium hover:bg-gray-100 transition-slow" data-aos="fade-up" data-aos-delay="200">
+                Get a Wholesale Quote
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Wolfgang Trading</h3>
+                    <p class="text-gray-400">Your trusted partner for high-quality wholesale food supplies.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-slow">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition-slow">About Us</a></li>
+                        <li><a href="products.html" class="text-gray-400 hover:text-white transition-slow">Products</a></li>
+                        <li><a href="quality.html" class="text-gray-400 hover:text-white transition-slow">Quality Control</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition-slow">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Products</h4>
+                    <ul class="space-y-2">
+                        <li><a href="products.html#fruits" class="text-gray-400 hover:text-white transition-slow">Fruits</a></li>
+                        <li><a href="products.html#vegetables" class="text-gray-400 hover:text-white transition-slow">Vegetables</a></li>
+                        <li><a href="products.html#dryfruits" class="text-gray-400 hover:text-white transition-slow">Dry Fruits</a></li>
+                        <li><a href="products.html#staples" class="text-gray-400 hover:text-white transition-slow">Staples</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-center"><i data-feather="map-pin" class="mr-2 w-4 h-4"></i> 123 Farm Road, Agricultural Zone</li>
+                        <li class="flex items-center"><i data-feather="phone" class="mr-2 w-4 h-4"></i> +1 (555) 123-4567</li>
+                        <li class="flex items-center"><i data-feather="mail" class="mr-2 w-4 h-4"></i> info@wolfgangtrading.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-10 pt-6 text-center text-gray-400">
+                <p>© 2023 Wolfgang Trading. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace();
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome - Wolfgang Trading</title>
+  <link rel="icon" type="image/x-icon" href="images/logo">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .splash-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      animation: fadeIn 1.5s ease;
+    }
+
+    .splash-container img {
+      width: 200px; /* adjust logo size */
+      margin-bottom: 30px;
+    }
+
+    .splash-container h1 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #2d7c33;
+    }
+
+    .splash-buttons {
+      display: flex;
+      gap: 20px;
+    }
+
+    .splash-buttons a {
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      background: #2d7c33;
+      color: #fff;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .splash-buttons a:hover {
+      background: #1e5523;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="splash-container">
+    <img src="images/logo" alt="Wolfgang Trading Logo">
+    <h1>Welcome to Wolfgang Trading</h1>
+    <div class="splash-buttons">
+      <a href="index.html">Enter Website</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quality Assurance - Wolfgang Trading</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <style>
+        .quality-step:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        .transition-slow {
+            transition: all 0.5s ease;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white shadow-md z-50">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <span class="text-2xl font-bold text-green-600">Wolfgang Trading</span>
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="index.html" class="text-gray-600 hover:text-green-600 transition-slow">Home</a>
+                <a href="about.html" class="text-gray-600 hover:text-green-600 transition-slow">About Us</a>
+                <a href="products.html" class="text-gray-600 hover:text-green-600 transition-slow">Products</a>
+                <a href="#" class="text-green-600 font-medium">Quality</a>
+                <a href="contact.html" class="text-gray-600 hover:text-green-600 transition-slow">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <i data-feather="menu" class="text-gray-600"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-green-600 text-white pt-32 pb-20">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6" data-aos="fade-up">Our Quality Commitment</h1>
+            <p class="text-xl max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">Rigorous standards from farm to delivery ensure you receive only the best</p>
+        </div>
+    </section>
+
+    <!-- Quality Intro -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">Quality You Can Trust</h2>
+                <p class="text-gray-600">At Wolfgang Trading, we understand that quality is not just a process, but a promise to our customers. Our multi-stage quality assurance program ensures that every product meets our high standards before it reaches you.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-sm" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-green-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="check-circle" class="text-green-600 w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-2">Farm Selection</h3>
+                    <p class="text-gray-600 text-center">We partner only with certified farms that meet our sustainability and ethical standards.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-sm" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-orange-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="eye" class="text-orange-500 w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-2">Visual Inspection</h3>
+                    <p class="text-gray-600 text-center">Every batch undergoes thorough visual checks for color, size, and freshness.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-sm" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bg-yellow-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="thermometer" class="text-yellow-500 w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-2">Temperature Control</h3>
+                    <p class="text-gray-600 text-center">Maintaining optimal temperatures throughout storage and transit preserves freshness.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality Process -->
+    <section class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-16" data-aos="fade-up">Our Quality Process</h2>
+            <div class="space-y-8 max-w-4xl mx-auto">
+                <div class="quality-step bg-white p-6 rounded-lg shadow-md transition-slow flex flex-col md:flex-row items-center" data-aos="fade-up">
+                    <div class="bg-green-600 text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mb-4 md:mb-0 md:mr-6">1</div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Farm Verification</h3>
+                        <p class="text-gray-600">We conduct regular audits of our partner farms to ensure they meet our agricultural and labor standards.</p>
+                    </div>
+                </div>
+                <div class="quality-step bg-white p-6 rounded-lg shadow-md transition-slow flex flex-col md:flex-row items-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-green-600 text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mb-4 md:mb-0 md:mr-6">2</div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Harvest Monitoring</h3>
+                        <p class="text-gray-600">Our field agents ensure produce is harvested at peak ripeness and handled with care to prevent bruising.</p>
+                    </div>
+                </div>
+                <div class="quality-step bg-white p-6 rounded-lg shadow-md transition-slow flex flex-col md:flex-row items-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-green-600 text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mb-4 md:mb-0 md:mr-6">3</div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Packhouse Inspection</h3>
+                        <p class="text-gray-600">Trained inspectors check for size, color, and defects before packaging.</p>
+                    </div>
+                </div>
+                <div class="quality-step bg-white p-6 rounded-lg shadow-md transition-slow flex flex-col md:flex-row items-center" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bg-green-600 text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mb-4 md:mb-0 md:mr-6">4</div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Warehouse Checks</h3>
+                        <p class="text-gray-600">Temperature-controlled storage with regular quality checks during warehousing.</p>
+                    </div>
+                </div>
+                <div class="quality-step bg-white p-6 rounded-lg shadow-md transition-slow flex flex-col md:flex-row items-center" data-aos="fade-up" data-aos-delay="400">
+                    <div class="bg-green-600 text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mb-4 md:mb-0 md:mr-6">5</div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Final Delivery Check</h3>
+                        <p class="text-gray-600">Products undergo a final inspection before being loaded onto our refrigerated trucks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-orange-500 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-6" data-aos="fade-up">Quality You Can Taste</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="100">Experience the Wolfgang Trading difference with your first order</p>
+            <a href="contact.html" class="inline-block bg-white text-orange-500 px-8 py-3 rounded-lg font-medium hover:bg-gray-100 transition-slow" data-aos="fade-up" data-aos-delay="200">
+                Request a Sample
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Wolfgang Trading</h3>
+                    <p class="text-gray-400">Your trusted partner for high-quality wholesale food supplies.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition-slow">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition-slow">About Us</a></li>
+                        <li><a href="products.html" class="text-gray-400 hover:text-white transition-slow">Products</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-slow">Quality</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition-slow">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Products</h4>
+                    <ul class="space-y-2">
+                        <li><a href="products.html#fruits" class="text-gray-400 hover:text-white transition-slow">Fruits</a></li>
+                        <li><a href="products.html#vegetables" class="text-gray-400 hover:text-white transition-slow">Vegetables</a></li>
+                        <li><a href="products.html#dryfruits" class="text-gray-400 hover:text-white transition-slow">Dry Fruits</a></li>
+                        <li><a href="products.html#staples" class="text-gray-400 hover:text-white transition-slow">Staples</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-center"><i data-feather="map-pin" class="mr-2 w-4 h-4"></i> 123 Farm Road, Agricultural Zone</li>
+                        <li class="flex items-center"><i data-feather="phone" class="mr-2 w-4 h-4"></i> +1 (555) 123-4567</li>
+                        <li class="flex items-center"><i data-feather="mail" class="mr-2 w-4 h-4"></i> info@wolfgangtrading.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-10 pt-6 text-center text-gray-400">
+                <p>© 2023 Wolfgang Trading. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace();
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+    </script>
+</body>
+</html>
